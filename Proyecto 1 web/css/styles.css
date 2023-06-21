@@ -1,0 +1,4563 @@
+/* Estilos comunes para todas las versiones */
+body {
+    font-family: "IBM Plex Serif", serif;
+    background-color: #FFE5BD;
+    margin: 0;
+    padding: 0;
+
+  }
+
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Comfortaa", Arial, sans-serif;
+    font-weight: bold;
+  }
+  
+
+
+
+
+
+
+
+
+
+  /* Media query para la versión móvil */
+  @media screen and (max-width: 320px) {
+    /* Estilos específicos para la versión móvil */
+
+        .lines-container {
+        position: absolute;
+        margin-top: 20px;
+        margin-left: 10px;
+      }
+    
+      .line {
+        width: 24.02px;
+        height: 3px;
+        background-color: #FF8A00;
+        margin-bottom: 6px;
+        border-radius: 5px; 
+      }
+
+
+      .logo {
+        position: absolute;
+        width: 33px;
+        height: 33px;
+        top: -5px;
+        left: 52px; 
+        transform: translateX(-50%);
+      }
+
+      .search-box {
+        position: absolute;
+        top: 15px;
+        left: 85px;
+         
+      }
+    
+      .search-box input[type="text"] {
+        display: inline-flex;
+        width: 70px;
+        height: 24px;
+        border: 2px solid #FF8A00;
+        border-radius: 30px;
+        outline: none;
+        font-size: 14px;
+        background-color: #FFE5BD;
+        background-image: url('../images/lupa.png');
+        background-repeat: no-repeat;
+        background-position: 5px;
+        background-size: 14px 14px;
+        padding-left: 20px;
+        vertical-align: middle;
+      }
+
+      .user-icon {
+        display: inline-flex;
+        width: 24px; /* Ajusta el tamaño del ícono de usuario */
+        height: 24px; /* Ajusta el tamaño del ícono de usuario */
+        border-radius: 50%;
+        background-color: transparent; /* Fondo transparente */
+        border: 2px solid #FF8A00; /* Borde naranja */
+        background-image: url('../images/usuario.png'); /* Ruta de la imagen de usuario */
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 16px;
+        
+        vertical-align: middle;
+        padding: 2px; /* Ajusta el espacio entre el borde y la imagen de usuario */
+        
+        
+      }
+
+    
+      .actions-box {
+        display: inline-flex;
+        width: 52px;
+        height: 32px;
+        border-radius: 24px;
+        background-color: transparent;
+        border: 2px solid #FF8A00;
+        margin-left: 2px; /* Ajusta el margen a la derecha del círculo de usuario */
+        vertical-align: middle;
+        box-sizing: border-box;
+      }
+    
+      .actions-box .action-icon {
+        display: inline-flex;
+        padding-top: 5px;
+        margin-right: 5px;
+        
+        
+      }
+    
+      .actions-box .action-icon.cart {
+        display: inline-flex;
+        width: 45px; /* Ajusta el tamaño del ícono de usuario */
+        height: 24px; /* Ajusta el tamaño del ícono de usuario */
+        background-image: url('../images/carrito.png'); /* Ruta de la imagen del carrito de compra */
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: 21px;
+       
+
+      }
+    
+      .actions-box .action-icon.euro {
+        position: absolute;
+        font-family: "Comfortaa", Arial, sans-serif;
+        font-weight: bold;
+        font-size: 14px;
+        top: 5px;
+        left: 145px;
+      }
+
+      .quienes-somos {
+        font-family: "Comfortaa", Arial, sans-serif;
+        font-weight: bold;
+        font-size: 23px;
+        text-align: center;
+        margin-top: 75px; /* Ajusta el margen superior según sea necesario */
+        margin-left: 50px;
+        position: absolute;
+        color: #FF8A00;
+        }
+
+        .cuadro {
+          width: 270px;
+          height: 100px;
+          background-color: transparent;
+          border: 3px solid #FF8A00;
+          border-radius: 8px;
+          position: absolute;
+          margin-top: 120px;
+          margin-left: 25px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          text-align: left;
+          color: #FF8A00; 
+          
+        }
+
+        .cuadro p {
+          font-family: "IBM Plex Serif", serif;
+          font-size: 10px;
+          line-height: 1.5;
+          margin-left: 15px;
+          margin-right: 15px;
+        }
+   
+        
+        .boton {
+          width: 141px;
+          height: 46px;
+          background-color: #FF8A00;
+          border: 2px solid #FF8A00;
+          border-radius: 8px;
+          margin-top: 250px;
+          margin-left: 90px;
+          line-height: 46px;
+          color: #FFE5BD;
+          cursor: pointer;
+          position: absolute;
+          font-family: "IBM Plex Serif", serif;
+          font-size: 15px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          
+          
+        }
+        
+        .boton:active {
+          background-color: #FFE5BD;
+          border-color: #FF8A00;
+          color: #FF8A00;
+          
+        }
+
+        .seccion-ofertas {
+          background-color: #FF8A00;
+          width: 100%;
+          display: flex;
+          margin-top: 320px;
+          position: absolute;
+        }
+        
+        .titulo-ofertas {
+          display: inline-flex;
+          font-family: "Comfortaa", Arial, sans-serif;
+          font-weight: bold;
+          font-size: 32px;
+          color: #FFE5BD;
+          padding-left: 30px;
+          padding-top: 30px;
+          padding-bottom: 30px;
+          text-align: center;
+        }
+        
+        .icono-ofertas {
+          display: inline-flex;
+          padding-top: 35px;
+          padding-right: 70px;
+          width: 90px;
+          height: 100px;
+          background-image: url('../images/logoconserhuevo.png'); /* Reemplaza 'ruta-del-icono.png' con la ruta de tu icono */
+          background-size: 70px;
+          background-repeat: no-repeat;
+          background-position: center;
+        }
+
+
+        .seccion-favoritos {
+          position: absolute;
+          top: 360px;
+          width: 100%;
+          height: 350px;
+          margin-top: 110px;
+          
+        }
+        
+        .titulo-favoritos {
+          font-family: "Comfortaa", Arial, sans-serif;
+          font-weight: bold;
+          font-size: 32px;
+          color: #FF8A00;
+          padding: 10px;
+          text-align: center;
+        }
+        
+        .imagen-leche {
+          display: inline-flex;
+          margin-left: 115px;
+          width: 92px;
+          height: 169px;
+          background-image: url('../images/leche.png'); /* Reemplaza 'ruta-imagen-leche.png' con la ruta de tu imagen de leche */
+          background-size: 90px;  
+          background-repeat: no-repeat;
+        }
+        
+        .texto-leche {
+          text-align: center;
+          top: 180px;
+          left: 50%;
+          font-family: "IBM Plex Serif", serif;
+          font-size: 20px;
+          color: #000000;
+        }
+        
+        .botonAñadir1 {
+          
+          margin-top: 10px;
+          margin-left: 100px;
+          width: 120px;
+          height: 46px;
+          background-color: #FF8A00;
+          border: 2px solid #FF8A00;
+          border-radius: 8px;
+          color: #FFE5BD;
+          cursor: pointer;
+          font-family: "IBM Plex Serif", serif;
+          font-weight: bold;
+          font-size: 15px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        
+        .botonAñadir1:active {
+          background-color: #FFE5BD;
+          border-color: #FF8A00;
+          color: #FF8A00;
+        }
+        
+        .flecha-izquierda {
+          position: absolute;
+          top: 150px;
+          left: 30px;
+          width: 13px;
+          height: 22px;
+          transform: rotate(180deg);
+          background-image: url('../images/caretderecha.png'); /* Reemplaza 'ruta-icono-flecha-izquierda.png' con la ruta de tu icono de flecha izquierda */
+          background-size: cover;
+          background-position: center;
+        }
+        
+        .flecha-derecha {
+          position: absolute;
+          top: 150px;
+          right: 30px;
+          width: 13px;
+          height: 22px;
+          background-image: url('../images/caretderecha.png'); /* Reemplaza 'ruta-icono-flecha-derecha.png' con la ruta de tu icono de flecha derecha */
+          background-size: cover;
+          background-position: center;
+        }
+
+
+
+        .seccion-destacados {
+          position: absolute;
+          top: 805px;
+          width: 100%;
+          height: 350px;
+          background-color: #FF8A00;
+        }
+        
+        .titulo-destacados {
+          font-family: "Comfortaa", Arial, sans-serif;
+          font-weight: bold;
+          font-size: 32px;
+          color: #FFE5BD;
+          padding: 10px;
+          text-align: center;
+        }
+        
+        .imagen-cerveza {
+          display: inline-flex;
+          margin-left: 140px;
+          width: 92px;
+          height: 169px;
+          background-image: url('../images/cerveza.png');
+          background-size: 45px;
+          background-repeat: no-repeat;
+        }
+        
+        .texto-cerveza {
+          text-align: center;
+          top: 180px;
+          left: 50%;
+          font-family: "IBM Plex Serif", serif;
+          font-size: 20px;
+          color: #000000;
+        }
+        
+        .botonAñadir2 {
+          margin-top: 10px;
+          margin-left: 100px;
+          width: 120px;
+          height: 46px;
+          background-color: #FFE5BD;
+          border: 2px solid #FFE5BD;
+          border-radius: 8px;
+          color: #FF8A00;
+          cursor: pointer;
+          font-family: "IBM Plex Serif", serif;
+          font-weight: bold;
+          font-size: 15px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        
+        .botonAñadir2:active {
+          background-color: #FF8A00;
+          border-color: #FFE5BD;
+          color: #FFE5BD;
+        }
+        
+        .flecha-izquierda2 {
+          position: absolute;
+          top: 150px;
+          left: 30px;
+          width: 13px;
+          height: 22px;
+          transform: rotate(180deg);
+          background-image: url('../images/caretizquierda.png');
+          background-size: cover;
+          background-position: center;
+        }
+        
+        .flecha-derecha2 {
+          position: absolute;
+          top: 150px;
+          right: 30px;
+          width: 13px;
+          height: 22px;
+          background-image: url('../images/caretizquierda.png');
+          background-size: cover;
+          background-position: center;
+        }
+
+
+        .seccion-frescos {
+          position: absolute;
+          top: 1050px;
+          width: 100%;
+          height: 290px;
+          margin-top: 110px;
+          
+        }
+        
+        .titulo-frescos {
+          font-family: "Comfortaa", Arial, sans-serif;
+          font-weight: bold;
+          font-size: 32px;
+          color: #FF8A00;
+          padding: 10px;
+          text-align: center;
+        }
+        
+        .imagen-lomo {
+          display: inline-flex;
+          margin-left: 70px;
+          width: 200px;
+          height: 110px;
+          background-image: url('../images/lomo.png'); /* Reemplaza 'ruta-imagen-leche.png' con la ruta de tu imagen de leche */
+          background-size: 190px;  
+          background-repeat: no-repeat;
+        }
+        
+        .texto-lomo {
+          text-align: center;
+          top: 100px;
+          left: 50%;
+          font-family: "IBM Plex Serif", serif;
+          font-size: 20px;
+          color: #000000;
+        }
+        
+        .botonAñadir1 {
+          
+          margin-top: 10px;
+          margin-left: 100px;
+          width: 120px;
+          height: 46px;
+          background-color: #FF8A00;
+          border: 2px solid #FF8A00;
+          border-radius: 8px;
+          color: #FFE5BD;
+          cursor: pointer;
+          font-family: "IBM Plex Serif", serif;
+          font-weight: bold;
+          font-size: 15px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        
+        .botonAñadir1:active {
+          background-color: #FFE5BD;
+          border-color: #FF8A00;
+          color: #FF8A00;
+        }
+        
+        .flecha-izquierda1 {
+          position: absolute;
+          top: 130px;
+          left: 30px;
+          width: 13px;
+          height: 22px;
+          transform: rotate(180deg);
+          background-image: url('../images/caretderecha.png'); /* Reemplaza 'ruta-icono-flecha-izquierda.png' con la ruta de tu icono de flecha izquierda */
+          background-size: cover;
+          background-position: center;
+        }
+        
+        .flecha-derecha1 {
+          position: absolute;
+          top: 130px;
+          right: 30px;
+          width: 13px;
+          height: 22px;
+          background-image: url('../images/caretderecha.png'); /* Reemplaza 'ruta-icono-flecha-derecha.png' con la ruta de tu icono de flecha derecha */
+          background-size: cover;
+          background-position: center;
+        }
+
+
+ /* */ /* */ /* */ /* */ /* */ /* */ /* */ /* */ /* */ /* */ /* */ 
+
+        .fondo-socio{
+          padding: 1px;
+        }
+        .hazte-socio {
+          font-family: "Comfortaa", Arial, sans-serif;
+          font-weight: bold;
+          font-size: 32px;
+          text-align: center;
+          margin-top: 75px; /* Ajusta el margen superior según sea necesario */
+          margin-left: 50px;
+          position: absolute;
+          color: #FF8A00;
+          }
+
+        .intro {
+            top: 130px;
+            background-color: #FF8A00;
+            width: 100%;
+            height: 230px;
+            display: flex; 
+            position: absolute;
+            padding-left: 30px;
+          }
+
+          .titulo-intro {
+            top: 10px;
+            left: 40px;
+            font-size: 20px;
+            color: #FFE5BD;
+            text-align: center;
+            position: absolute;
+            display: flex;
+          }
+          
+          .recuadro {
+            position: absolute;
+            top:75px;
+            left: 35px;
+            width: 250px;
+            height: 110px;           
+            border: 2px solid #FFE5BD;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+          
+          .texto-recuadro {
+            text-align: left;
+            font-family: "IBM Plex Serif", serif;
+            font-size: 10px;
+            color: #FFE5BD;
+            padding: 10px;
+          }
+
+
+          .requisitos-socio {
+            margin-top: 50px;
+            text-align: center;
+            position: absolute;
+            top: 300px;
+          }
+          
+          .titulo-requisitos {
+            font-size: 32px;
+            color: #FF8A00;
+            text-decoration: underline;
+          }
+          
+          .lista-apartados {
+            list-style: none;
+            padding: 0;
+            margin-top: 20px;
+            padding-right: 16px;
+            text-align: left; /* Alineación a la izquierda */
+            margin-left: 30px;
+          }
+          
+          .apartado {
+            color: #FF8A00;
+            text-decoration: underline;
+            font-size: 17px; /* Tamaño de las letras ajustado */
+            margin-bottom: 20px; /* Espaciado entre los apartados */
+            
+          }
+
+
+          .rellenafor {
+            top: 680px;
+            background-color: #FF8A00;
+            width: 100%;
+            height: 360px;
+            display: flex;
+            text-align: center; 
+            position: absolute;
+            
+
+          }
+          
+          .rellenafor-texto {
+            top: 10px;
+            left: 20px;
+            right: 20px;            
+            font-size: 20px;            
+            color: #FFE5BD;
+            position: absolute;
+            text-decoration: underline;
+
+          }
+          
+          .rellenafor-texto2 {
+            font-size: 20px;
+            color: #FFE5BD;
+          }
+          
+          .rellenafor-recuadro {
+            background-color: #FFE5BD;
+            height: 45px;
+            width: 195px;
+            border-radius: 10px;
+            top: 200px;
+            left: 60px;
+            display: flex;
+            position: absolute;
+            font-family: "Comfortaa", Arial, sans-serif;
+            font-weight: bold;
+            color: #FF8A00;
+            border: 2px solid #FFE5BD;
+            font-size: 21px;
+            padding-top: 23px;
+            padding-left: 13px;
+            text-decoration: underline;
+            cursor: pointer;
+          }
+          
+          .rellenafor-logo {
+            width: 50px;
+            height: 50px;
+            background-image: url('../images/logoconsernaranja.png'); /* Ruta de la imagen del logo */
+            background-repeat: no-repeat;
+            background-size: cover;
+            right: 10px;
+            top: 10px;
+            position: absolute;
+          }
+          
+          .rellenafor-recuadro:hover {
+            background-color: transparent;
+            color: #FFE5BD;
+          }
+          
+          .rellenafor-recuadro:hover .rellenafor-logo {
+            background-image: url('../images/logoconserhuevo.png'); /* Ruta de la nueva imagen del logo */
+          }
+          .hazte-socio2 {
+            font-family: "Comfortaa", Arial, sans-serif;
+            font-size: 33px;
+            text-align: center;
+            top:270px;
+            margin-left: 50px;
+            position: absolute;
+            color: #FFE5BD;
+            text-decoration: underline;
+
+            }
+
+
+          .redes {
+            top: 1040px;
+            background-color: transparent;
+            width: 100%;
+            height: 310px;
+            display: flex;
+            text-align: center;
+            position: absolute;
+          }
+          
+          .redes-texto {
+            font-size: 26px;
+            color: #FF8A00;
+            text-align: center;
+            position: absolute;
+
+          }
+          
+          .lista-apartados2 {
+            font-size: 26px;
+            list-style: none;
+            padding: 0;
+            margin-top: 110px;
+            text-align: left; /* Alineación a la izquierda */
+            margin-left: 30px;
+          }
+          .redes-apartado {
+            color: #FF8A00;
+            display: flex;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-weight: bold;
+          }
+  
+          .redes-apartado-icono {
+            position: absolute;
+            display: flex;
+            width: 13px;
+            height: 22px;
+            background-image: url('../images/caretderecha.png'); /* Ruta del icono de flecha derecha */
+            background-repeat: no-repeat;
+            background-size: cover;
+            right: 30px;
+            margin-top: 5px; 
+            position: absolute;
+          }
+
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+
+.seccion-ofertas2{
+  display: flex;
+  position: absolute;
+  top: 70px;
+  width: 100%;
+  height: 350px;
+
+}
+
+.ofertas{
+
+  font-family: "Comfortaa", Arial, sans-serif;
+          font-weight: bold;
+          font-size: 32px;
+          text-align: center;
+          left: 90px;
+          position: absolute;
+          color: #FF8A00;
+}
+
+
+.imagen-leche2 {
+  display: inline-flex;
+  width: 70px;
+  height: 218px;
+  top: 65px;
+  left: 130px;
+  background-image: url('../images/cerveza.png'); /* Reemplaza 'ruta-imagen-leche.png' con la ruta de tu imagen de leche */
+  background-size: 60px;  
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+.texto-leche2 {
+  display: flex;
+  text-align: left;
+  top: 300px;
+  left: 117px;
+  font-family: "IBM Plex Serif", serif;
+  font-size: 20px;
+  color: #000000;
+  position: absolute;
+}
+
+.flecha-izquierda3 {
+  position: absolute;
+  top: 150px;
+  left: 30px; 
+  width: 20px;
+  height: 38px;
+  transform: rotate(180deg);
+  background-image: url('../images/caretderecha.png'); 
+  background-size: cover;
+  background-position: center;
+}
+
+.flecha-derecha3 {
+  position: absolute;
+  top: 150px;
+  right: 30px;
+  width: 20px;
+  height: 38px;
+  background-image: url('../images/caretderecha.png'); 
+  background-size: cover;
+  background-position: center;
+}
+
+.botonAñadir3 {
+          
+  top: 350px;
+  left: 95px;
+  width: 120px;
+  height: 46px;
+  background-color: #FF8A00;
+  border: 2px solid #FF8A00;
+  border-radius: 8px;
+  color: #FFE5BD;
+  cursor: pointer;
+  font-family: "IBM Plex Serif", serif;
+  font-weight: bold;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
+
+.botonAñadir3:active {
+  background-color: #FFE5BD;
+  border-color: #FF8A00;
+  color: #FF8A00;
+}
+
+
+
+
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+
+
+
+
+.seccion-favoritos2{
+  display: flex;
+  position: absolute;
+  top: 525px;
+  width: 100%;
+  height: 365px;
+  background-color: #FF8A00;
+
+}
+
+.favoritos{
+
+  font-family: "Comfortaa", Arial, sans-serif;
+          font-weight: bold;
+          font-size: 32px;
+          text-align: center;
+          top: 15px;
+          left: 90px;
+          position: absolute;
+          color: #FFE5BD;
+}
+
+
+.imagen-leche3 {
+  display: inline-flex;
+  width: 80px;
+  height: 218px;
+  top: 75px;
+  left: 125px;
+  background-image: url('../images/leche.png'); /* Reemplaza 'ruta-imagen-leche.png' con la ruta de tu imagen de leche */
+  background-size: 80px;  
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+.texto-leche3 {
+  display: flex;
+  text-align: left;
+  top: 240px;
+  left: 100px;
+  font-family: "IBM Plex Serif", serif;
+  font-size: 20px;
+  color: #000000;
+  position: absolute;
+}
+
+.flecha-izquierda4 {
+  position: absolute;
+  top: 150px;
+  left: 30px; 
+  width: 20px;
+  height: 38px;
+  transform: rotate(180deg);
+  background-image: url('../images/caretizquierda.png'); 
+  background-size: cover;
+  background-position: center;
+}
+
+.flecha-derecha4 {
+  position: absolute;
+  top: 150px;
+  right: 30px;
+  width: 20px;
+  height: 38px;
+  background-image: url('../images/caretizquierda.png'); 
+  background-size: cover;
+  background-position: center;
+}
+
+.botonAñadir4 {
+          
+  top: 295px;
+  left: 100px;
+  width: 120px;
+  height: 46px;
+  background-color: #FFE5BD;
+  border: 2px solid #FFE5BD;
+  border-radius: 8px;
+  color: #FF8A00;
+  cursor: pointer;
+  font-family: "IBM Plex Serif", serif;
+  font-weight: bold;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
+
+.botonAñadir4:active {
+  background-color: #FF8A00;
+  border-color: #FFE5BD;
+  color: #FFE5BD;
+}
+
+
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+
+.seccion-populares{
+  display: flex;
+  position: absolute;
+  top: 900px;
+  width: 100%;
+  height: 350px;
+
+}
+
+.populares{
+
+  font-family: "Comfortaa", Arial, sans-serif;
+  top: 20px;
+  font-weight: bold;
+  font-size: 32px;
+  text-align: center;
+  left: 80px;
+  position: absolute;
+  color: #FF8A00;
+}
+
+
+.imagen-caramelo {
+  display: inline-flex;
+  width: 150px;
+  height: 150px;
+  top: 100px;
+  left: 85px;
+  background-image: url('../images/caramelo.png'); /* Reemplaza 'ruta-imagen-leche.png' con la ruta de tu imagen de leche */
+  background-size: 150px;  
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+.texto-caramelo {
+  display: flex;
+  text-align: center;
+  top: 200px;
+  width: 150px;
+  left: 90px;
+  font-family: "IBM Plex Serif", serif;
+  font-size: 20px;
+  color: #000000;
+  position: absolute;
+}
+
+.flecha-izquierda5 {
+  position: absolute;
+  top: 130px;
+  left: 30px; 
+  width: 20px;
+  height: 38px;
+  transform: rotate(180deg);
+  background-image: url('../images/caretderecha.png'); 
+  background-size: cover;
+  background-position: center;
+}
+
+.flecha-derecha5 {
+  position: absolute;
+  top: 130px;
+  right: 30px;
+  width: 20px;
+  height: 38px;
+  background-image: url('../images/caretderecha.png'); 
+  background-size: cover;
+  background-position: center;
+}
+
+.botonAñadir5 {
+          
+  top: 280px;
+  left: 100px;
+  width: 120px;
+  height: 46px;
+  background-color: #FF8A00;
+  border: 2px solid #FF8A00;
+  border-radius: 8px;
+  color: #FFE5BD;
+  cursor: pointer;
+  font-family: "IBM Plex Serif", serif;
+  font-weight: bold;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
+
+.botonAñadir5:active {
+  background-color: #FFE5BD;
+  border-color: #FF8A00;
+  color: #FF8A00;
+}
+
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+
+.seccion-frescos2{
+  display: flex;
+  position: absolute;
+  top: 1300px;
+  width: 100%;
+  height: 365px;
+  background-color: #FF8A00;
+
+}
+
+.frescos2{
+
+  font-family: "Comfortaa", Arial, sans-serif;
+          font-weight: bold;
+          font-size: 32px;
+          text-align: center;
+          top: 15px;
+          left: 90px;
+          position: absolute;
+          color: #FFE5BD;
+}
+
+
+.imagen-lomo2 {
+  display: inline-flex;
+  left: 70px;
+  top: 100px;
+  width: 190px;
+  height: 110px;
+  background-image: url('../images/lomo.png'); /* Reemplaza 'ruta-imagen-leche.png' con la ruta de tu imagen de leche */
+  background-size: 190px;  
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+.texto-leche4 {
+  display: flex;
+  text-align: left;
+  top: 240px;
+  left: 90px;
+  font-family: "IBM Plex Serif", serif;
+  font-size: 20px;
+  color: #000000;
+  position: absolute;
+}
+
+.flecha-izquierda4 {
+  position: absolute;
+  top: 150px;
+  left: 30px; 
+  width: 20px;
+  height: 38px;
+  transform: rotate(180deg);
+  background-image: url('../images/caretizquierda.png'); 
+  background-size: cover;
+  background-position: center;
+}
+
+.flecha-derecha4 {
+  position: absolute;
+  top: 150px;
+  right: 30px;
+  width: 20px;
+  height: 38px;
+  background-image: url('../images/caretizquierda.png'); 
+  background-size: cover;
+  background-position: center;
+}
+
+.botonAñadir4 {
+          
+  top: 295px;
+  left: 100px;
+  width: 120px;
+  height: 46px;
+  background-color: #FFE5BD;
+  border: 2px solid #FFE5BD;
+  border-radius: 8px;
+  color: #FF8A00;
+  cursor: pointer;
+  font-family: "IBM Plex Serif", serif;
+  font-weight: bold;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
+
+.botonAñadir4:active {
+  background-color: #FF8A00;
+  border-color: #FFE5BD;
+  color: #FFE5BD;
+}
+
+
+
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+
+.seccion-despensa{
+  display: flex;
+  position: absolute;
+  top: 1670px;
+  width: 100%;
+  height: 350px;
+
+}
+
+.despensa{
+
+  font-family: "Comfortaa", Arial, sans-serif;
+  top: 20px;
+  font-weight: bold;
+  font-size: 32px;
+  text-align: center;
+  left: 80px;
+  position: absolute;
+  color: #FF8A00;
+}
+
+
+.imagen-patatas {
+  display: inline-flex;
+  width: 150px;
+  height: 150px;
+  top: 100px;
+  left: 85px;
+  background-image: url('../images/patatas.png'); /* Reemplaza 'ruta-imagen-leche.png' con la ruta de tu imagen de leche */
+  background-size: 150px;  
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+.texto-patatas {
+  display: flex;
+  text-align: center;
+  top: 220px;
+  width: 150px;
+  left: 120px;
+  font-family: "IBM Plex Serif", serif;
+  font-size: 20px;
+  color: #000000;
+  position: absolute;
+}
+
+.flecha-izquierda5 {
+  position: absolute;
+  top: 130px;
+  left: 30px; 
+  width: 20px;
+  height: 38px;
+  transform: rotate(180deg);
+  background-image: url('../images/caretderecha.png'); 
+  background-size: cover;
+  background-position: center;
+}
+
+.flecha-derecha5 {
+  position: absolute;
+  top: 130px;
+  right: 30px;
+  width: 20px;
+  height: 38px;
+  background-image: url('../images/caretderecha.png'); 
+  background-size: cover;
+  background-position: center;
+}
+
+.botonAñadir5 {
+          
+  top: 280px;
+  left: 100px;
+  width: 120px;
+  height: 46px;
+  background-color: #FF8A00;
+  border: 2px solid #FF8A00;
+  border-radius: 8px;
+  color: #FFE5BD;
+  cursor: pointer;
+  font-family: "IBM Plex Serif", serif;
+  font-weight: bold;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
+
+.botonAñadir5:active {
+  background-color: #FFE5BD;
+  border-color: #FF8A00;
+  color: #FF8A00;
+}
+
+
+
+
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+
+.seccion-congelados{
+  display: flex;
+  position: absolute;
+  top: 2030px;
+  width: 100%;
+  height: 365px;
+  background-color: #FF8A00;
+
+}
+
+.congelados{
+
+  font-family: "Comfortaa", Arial, sans-serif;
+          font-weight: bold;
+          font-size: 32px;
+          text-align: center;
+          top: 35px;
+          left: 65px;
+          position: absolute;
+          color: #FFE5BD;
+}
+
+
+.imagen-pizza1 {
+  display: inline-flex;
+  left: 70px;
+  top: 100px;
+  width: 190px;
+  height: 125px;
+  background-image: url('../images/pizza1.png'); /* Reemplaza 'ruta-imagen-leche.png' con la ruta de tu imagen de leche */
+  background-size: 190px;  
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+.texto-pizza1 {
+  display: flex;
+  text-align: left;
+  top: 240px;
+  left: 90px;
+  font-family: "IBM Plex Serif", serif;
+  font-size: 20px;
+  color: #000000;
+  position: absolute;
+}
+
+.flecha-izquierda4 {
+  position: absolute;
+  top: 150px;
+  left: 30px; 
+  width: 20px;
+  height: 38px;
+  transform: rotate(180deg);
+  background-image: url('../images/caretizquierda.png'); 
+  background-size: cover;
+  background-position: center;
+}
+
+.flecha-derecha4 {
+  position: absolute;
+  top: 150px;
+  right: 30px;
+  width: 20px;
+  height: 38px;
+  background-image: url('../images/caretizquierda.png'); 
+  background-size: cover;
+  background-position: center;
+}
+
+.botonAñadir4 {
+          
+  top: 295px;
+  left: 100px;
+  width: 120px;
+  height: 46px;
+  background-color: #FFE5BD;
+  border: 2px solid #FFE5BD;
+  border-radius: 8px;
+  color: #FF8A00;
+  cursor: pointer;
+  font-family: "IBM Plex Serif", serif;
+  font-weight: bold;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
+
+.botonAñadir4:active {
+  background-color: #FF8A00;
+  border-color: #FFE5BD;
+  color: #FFE5BD;
+}
+
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+.titulo-cesta {
+  font-size: 34px;
+  text-align: center;
+  left: 100px;
+  top: 35px;
+  color: #FF8A00;
+  text-decoration: underline;
+  position: absolute;
+}
+
+.articulos-container {
+  position: absolute;
+  width: 100%;
+  top: 95px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.titulo-articulos {
+  font-size: 20px;
+  color: #FF8A00;
+  text-decoration: underline;
+  margin-right: 10px;
+}
+
+.corazon-img {
+  width: 23px;
+  height: 23px;
+  padding-left: 135px;
+  
+}
+
+/**//**//**//**//**//**//**//**//**/
+
+.cerveza-container {
+  top: 160px;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  position: absolute;
+}
+
+.corazonvacio {
+  top: 30px;
+  right: 55px;
+  position: absolute;
+}
+
+.corazon-img2 {
+  width: 23px;
+  height: 23px;  
+}
+
+.cerveza-titulo {
+  top: 21px;
+  right: 105px;
+  font-size: 23px;
+  color: #000000;
+  position: absolute;
+}
+
+.cerveza-content {
+  display: flex;
+  align-items: center;
+  position: absolute;
+}
+
+.check1{
+  top: 110px;
+  left: 20px;
+  position: absolute;
+
+}
+
+
+.check-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.cerveza-cesta{
+  top: 45px;
+  left: 65px;
+  position: absolute;
+
+}
+
+.cerveza-img {
+  width: 40px;
+  height: 135px;
+
+}
+
+
+.contador {
+  top: 150px;
+  right: 90px;
+  position: absolute;
+
+}
+
+.contador-img {
+  width: 120px;
+  height: 23px;
+
+
+}
+
+.papelera{
+  top: 150px;
+  right: 55px;
+  position: absolute;
+
+}
+
+.papelera-icon {
+  width: 25px;
+  height: 25px;
+}
+
+
+/**//**//**//**//**//**//**//**//**/
+
+.leche-container {
+  top: 383px;
+  width: 100%;
+  height: 200px;
+  background-color: #FF8A00;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  position: absolute;
+}
+
+.corazonvacio {
+  top: 30px;
+  right: 55px;
+  position: absolute;
+}
+
+.corazon-img2 {
+  width: 23px;
+  height: 23px;  
+}
+
+.leche-titulo {
+  top: 21px;
+  right: 105px;
+  font-size: 23px;
+  color: #000000;
+  position: absolute;
+  display: flex;
+  text-align: center;
+}
+
+
+.check1{
+  top: 110px;
+  left: 20px;
+  position: absolute;
+
+}
+
+
+.check-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.leche-cesta{
+  top: 45px;
+  left: 55px;
+  position: absolute;
+
+}
+
+.leche-img {
+  width: 60px;
+  height: 135px;
+
+}
+
+
+.contador {
+  top: 150px;
+  right: 90px;
+  position: absolute;
+
+}
+
+.contador-img {
+  background-color: #FFE5BD;
+  width: 120px;
+  height: 23px;
+  border-radius: 7px;
+
+
+}
+
+.papelera{
+  top: 150px;
+  right: 55px;
+  position: absolute;
+
+}
+
+.papelera-icon {
+  width: 25px;
+  height: 25px;
+}
+
+
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+.caramelo-container {
+  top: 605px;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  position: absolute;
+}
+
+.corazonlleno {
+  top: 30px;
+  right: 55px;
+  position: absolute;
+}
+
+.corazon-img2 {
+  width: 23px;
+  height: 23px;  
+}
+
+.caramelo-titulo {
+  text-align: center;
+  top: 21px;
+  right: 95px;
+  font-size: 23px;
+  color: #000000;
+  position: absolute;
+}
+
+.caramelo-content {
+  position: absolute;
+}
+
+.check1{
+  top: 110px;
+  left: 10px;
+  position: absolute;
+
+}
+
+
+.check-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.caramelo-cesta{
+  top: 90px;
+  left: 55px;
+  position: absolute;
+
+}
+
+.caramelo-img {
+  width: 90px;
+  height: 60px;
+
+}
+
+
+.contador {
+  top: 150px;
+  right: 90px;
+  position: absolute;
+
+}
+
+.contador-img {
+  width: 120px;
+  height: 23px;
+
+
+}
+
+.papelera{
+  top: 150px;
+  right: 55px;
+  position: absolute;
+
+}
+
+.papelera-icon {
+  width: 25px;
+  height: 25px;
+}
+
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+.filete-container {
+  top: 828px;
+  width: 100%;
+  height: 200px;
+  background-color: #FF8A00;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  position: absolute;
+}
+
+.corazonvacio {
+  top: 30px;
+  right: 55px;
+  position: absolute;
+}
+
+.corazon-img2 {
+  width: 23px;
+  height: 23px;  
+}
+
+.filete-titulo {
+  top: 21px;
+  right: 105px;
+  font-size: 23px;
+  color: #000000;
+  position: absolute;
+  display: flex;
+  text-align: center;
+}
+
+
+.check1{
+  top: 110px;
+  left: 10px;
+  position: absolute;
+
+}
+
+
+.check-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.filete-cesta{
+  top: 85px;
+  left: 55px;
+  position: absolute;
+
+}
+
+.filete-img {
+  width: 100px;
+  height: 70px;
+
+}
+
+
+.contador {
+  top: 150px;
+  right: 90px;
+  position: absolute;
+
+}
+
+.contador-img {
+  background-color: #FFE5BD;
+  width: 120px;
+  height: 23px;
+  border-radius: 7px;
+
+
+}
+
+.papelera{
+  top: 150px;
+  right: 55px;
+  position: absolute;
+
+}
+
+.papelera-icon {
+  width: 25px;
+  height: 25px;
+}
+
+
+.realizarPedido{
+
+  top: 1052px;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  position: absolute;
+
+}
+
+.pedido-text {
+  position: absolute;
+  left: 40px;
+  height: 50px;
+  background-color: #FF8A00;
+  color: #FFE5BD;
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pedido-text h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+.menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  top: 0px;
+}
+
+.menu-item {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  font-size: 24px;
+  font-weight: bold;
+  padding-left: 15px;
+  
+  
+}
+
+.menu-item2 {
+  background-color: #FF8A00;
+  color: #FFE5BD;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  font-size: 24px;
+  font-weight: bold;
+  padding-left: 40px;
+ 
+}
+
+.menu-item3 {
+  background-color: #FFE5BD;
+  color: #FF8A00;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  font-size: 24px;
+  font-weight: bold;
+  padding-left: 40px;
+ 
+}
+
+
+
+.menu-arrow {
+  width: 13px;
+  height: 22px;
+  margin-left: auto;
+  margin-right: 30px;
+}
+
+.menu-arrow1 {
+  transform: rotate(90deg);
+  width: 13px;
+  height: 22px;
+  margin-left: auto;
+  margin-right: 30px;
+}
+
+.menu-arrow2 {
+  width: 13px;
+  height: 22px;
+  margin-left: auto;
+  margin-right: 30px;
+  color: #FFE5BD;
+}
+
+.menu-item:nth-child(odd) {
+  background-color: #FF8A00;
+  color: #FFE5BD;
+}
+
+.menu-item:nth-child(even) {
+  background-color: #FFE5BD;
+  color: #FF8A00;
+}
+
+.header{
+  display: none;
+}
+
+.Higueron{
+  display: none;
+}
+
+.cuadro2{
+  display: none;
+}
+
+
+.ver-mas{
+  display: none;
+}
+
+
+.fondo-index-naranja2{
+
+  display: none;
+}
+
+.seccion-categorias{
+
+  display: none;
+
+}
+
+.fondo-index-naranja3{
+  display: none;
+}
+
+  
+
+.redes-sociales{
+
+  display: none;
+
+}
+
+.redes-sociales2{
+
+  display: none;
+
+}
+
+.pagina-catalogo{
+  display: none;
+}
+
+.pagina-cesta{
+  display: none;
+}
+
+.pagina-cesta-movil{
+  display: block;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+
+}
+
+  /* Media query para la versión de escritorio */
+  @media screen and (min-width: 1280px) {
+    /* Estilos específicos para la versión de escritorio */
+
+    .lines-container {
+      position: absolute;
+      top: 220px;
+      left: 60px;
+    }
+  
+    .line {
+      width: 110px;
+      height: 10px;
+      background-color: #FF8A00;
+      margin-bottom: 30px;
+      border-radius: 5px; 
+    }   
+
+    .logo {
+      position: absolute;
+      width: 160px;
+      height: 160px;
+      left: 470px; 
+      top: -200px;
+    }
+
+
+    .search-box {
+      position: absolute;
+      top: 220px;
+      left: 210px;
+       
+    }
+  
+    .search-box input[type="text"] {
+      display: inline-flex;
+      width: 550px;
+      height: 75px;
+      border: 10px solid #FF8A00;
+      border-radius: 30px;
+      outline: none;
+      font-size: 40px;
+      background-color: #FFE5BD;
+      background-image: url('../images/lupa.png');
+      background-repeat: no-repeat;
+      background-position: 5px;
+      background-size: 60px 60px;
+      padding-left: 60px;
+      vertical-align: middle;
+    }
+
+    .heart-icon {
+      display: inline-flex;
+      width: 80px; /* Ajusta el tamaño del ícono de usuario */
+      height: 80px; /* Ajusta el tamaño del ícono de usuario */
+      border-radius: 25%;
+      background-color: transparent; /* Fondo transparente */
+      border: 8px solid #FF8A00; /* Borde naranja */
+      background-image: url('../images/corazonvacio.png'); /* Ruta de la imagen de usuario */
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 75px;
+      margin-left: 30px; /* Ajusta el margen a la derecha del recuadro de búsqueda */
+      vertical-align: middle;
+      padding: 2px; /* Ajusta el espacio entre el borde y la imagen de usuario */
+      
+      
+    }
+
+    .user-icon2{
+      display: inline-flex;
+      width: 65px; /* Ajusta el tamaño del ícono de usuario */
+      height: 65px; /* Ajusta el tamaño del ícono de usuario */
+      border-radius: 50%;
+      background-color: transparent; /* Fondo transparente */
+      border: 5px solid #FF8A00; /* Borde naranja */
+      background-image: url('../images/usuario.png'); /* Ruta de la imagen de usuario */
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 65px;
+      margin-left: 2px; /* Ajusta el margen a la derecha del recuadro de búsqueda */
+      vertical-align: middle;
+      padding: 2px; /* Ajusta el espacio entre el borde y la imagen de usuario */
+      position: absolute;
+      right: 500px;
+
+    }  
+  
+    .login-text{
+      position: absolute;
+      right: 210px;
+    }
+
+    .login-text a{color: inherit;
+    text-decoration: none;
+    }
+
+    .actions-box {
+      display: inline-flex;
+      width: 170px;
+      height: 100px;
+      border-radius: 24px;
+      background-color: transparent;
+      border: 8px solid #FF8A00;
+      margin-left: 25px; /* Ajusta el margen a la derecha del círculo de usuario */
+      vertical-align: middle;
+      box-sizing: border-box;
+    }
+  
+    .actions-box .action-icon {
+      display: inline-flex;
+      padding-top: 5px;
+      margin-right: 5px;
+      
+      
+    }
+  
+    .actions-box .action-icon.cart {
+      display: inline-flex;
+      width: 70px; /* Ajusta el tamaño del ícono de usuario */
+      height: 60px; /* Ajusta el tamaño del ícono de usuario */
+      background-image: url('../images/carrito.png'); /* Ruta de la imagen del carrito de compra */
+      background-repeat: no-repeat;
+      position: absolute;
+      background-size: 75px;
+      margin-left: 7px;
+      margin-top: 7px;
+     
+
+    }
+  
+    .actions-box .action-icon.euro {
+      display: inline-flex;
+      font-family: "Comfortaa", Arial, sans-serif;
+      font-weight: bold;
+      font-size: 52px;
+      top: 20px;
+      position: absolute;
+      right: 20px;
+      
+      
+    }
+
+    .header {
+      position: absolute;
+      top: 60px;
+      left: 85px;
+      display: flex;
+      align-items: center;
+      font-size: 40px;
+      color: #FF8A00;
+      width: 100%;
+    }
+    
+    .help-icon img {
+      width: 40px;
+      height: 40px;
+      margin-right: 10px;
+    }
+
+    
+
+
+/**//**//**//**//**//* ENCABEZADO *//**//**//**//**//**//**/ 
+
+.fondo-index-naranja{
+
+  position: absolute;
+  background-color: #FF8A00;
+  width: 100%;
+  height: 800px;
+  top: 400px;
+
+}
+
+.quienes-somos {
+  font-family: "Comfortaa", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 70px;
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 65px; /* Ajusta el margen superior según sea necesario */
+  margin-left: 260px;
+  position: absolute;
+  color: #FFE5BD;
+  }
+
+  .cuadro {
+    width: 800px;
+    height: 200px;
+    background-color: transparent;
+    border: 9px solid #FFE5BD;
+    border-radius: 8px;
+    position: absolute;
+    top: 190px;
+    left: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    color: #FFE5BD; 
+    
+  }
+
+  .cuadro p {
+    font-family: "IBM Plex Serif", serif;
+    font-size: 27px;
+    line-height: 1.5;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .Higueron{
+    font-family: "IBM Plex Serif", serif;
+    font-size: 42px;
+    text-decoration: underline;
+    position: absolute;
+    color: #FFE5BD;
+    top: 450px;
+    left: 250px;
+  }
+
+
+  .boton {
+    width: 500px;
+    height: 150px;
+    background-color: #FFE5BD;
+    border-radius: 8px;
+    top: 580px;
+    left: 330px;
+    line-height: 46px;
+    color: #000000;
+    cursor: pointer;
+    position: absolute;
+    font-family: "IBM Plex Serif", serif;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+  }
+  
+  .boton:active {
+    background-color: #FF8A00;
+    border-color: #FFE5BD;
+    color: #000000;
+    
+  }
+
+  .seccion-ofertas {
+    background-color: #FFE5BD;
+
+    width: 100%;
+    height: 900px;
+    display: flex;
+    top: 1200px;
+    position: absolute;
+  }
+  
+  .titulo-ofertas {
+    display: inline-flex;
+    color: #FF8A00;
+    font-family: "Comfortaa", Arial, sans-serif;
+    font-weight: bold;
+    font-size: 70px;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 65px; /* Ajusta el margen superior según sea necesario */
+    margin-left: 260px;
+    position: absolute;
+
+  }
+  
+  .icono-ofertas {
+    display: inline-flex;
+    position: absolute;
+    top: 220px;
+    right: 100px;
+    width: 350px;
+    height: 350px;
+    background-image: url('../images/logoconsernaranja.png'); /* Reemplaza 'ruta-del-icono.png' con la ruta de tu icono */
+    background-size: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .cuadro2{
+    width: 550px;
+    height: 140px;
+    background-color: transparent;
+    border: 9px solid #FF8A00;
+    border-radius: 8px;
+    position: absolute;
+    top: 320px;
+    left: 150px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    color: #FF8A00; 
+
+  }
+
+  .cuadro2 p {
+    font-family: "IBM Plex Serif", serif;
+    font-size: 27px;;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .ver-mas{
+    width: 550px;
+    height: 120px;
+    background-color: #FF8A00;
+    border: 6px solid #FF8A00;
+    border-radius: 9px;
+    top: 650px;
+    left: 358px;
+    line-height: 46px;
+    color: #000000;
+    cursor: pointer;
+    position: absolute;
+    font-family: "IBM Plex Serif", serif;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Comfortaa", Arial, sans-serif;
+    font-weight: bold;
+
+  }
+
+  .ver-mas:active {
+    background-color: #FFE5BD;
+    border-color: #FF8A00;
+    color: #000000;
+    
+  }
+
+
+  .fondo-index-naranja2{
+
+    position: absolute;
+    background-color: #FF8A00;
+    width: 100%;
+    height: 1100px;
+    top: 2100px;
+    
+  
+  }
+
+  .populares-tit {
+    font-family: "Comfortaa", Arial, sans-serif;
+    font-weight: bold;
+    font-size: 70px;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 65px; /* Ajusta el margen superior según sea necesario */
+    margin-left: 460px;
+    position: absolute;
+    color: #FFE5BD;
+    }
+
+    .image-container1 {
+      position: absolute;
+      text-align: center;
+      left: 210px;
+      margin-top: 300px;
+    }
+
+    .image-container2 {
+      position: absolute;
+      text-align: center;
+      left: 500px;
+      margin-top: 300px;
+    }
+
+    .image-container3 {
+      position: absolute;
+      text-align: right;
+      left: 780px;
+      margin-top: 300px;
+    }
+    
+    .image-container1 img {
+      width: 100px;
+      height: 300px;
+    }
+    .image-container2 img {
+      width: 200px;
+      height: 300px;
+    }
+    .image-container3 img {
+      width: 400px;
+      height: 300px;
+    }
+    
+    .image-name {
+      font-family: "IBM Plex Serif", serif;
+      font-size: 35px;
+      color: #000000;
+      position: absolute;
+      display: flex;
+      width:300px ;
+      top: 320px;
+    }
+
+    .image-name1 {
+      font-family: "IBM Plex Serif", serif;
+      font-size: 35px;
+      color: #000000;
+      position: absolute;
+      display: flex;
+      width:100px ;
+      top: 320px;
+      left: -20px;
+    }
+
+    .image-name3 {
+      font-family: "IBM Plex Serif", serif;
+      font-size: 35px;
+      color: #000000;
+      position: absolute;
+      display: flex;
+      width:100px ;
+      top: 320px;
+      margin-left: 65px;
+    }
+
+    .flecha1z{
+      position: absolute;
+      transform: rotate(180deg);
+
+      top: 450px;
+      left: 70px;
+
+    }
+
+    .flecha1z img {
+      width: 40px;
+      height: 60px;
+    }
+
+    .flecha1d{
+      position: absolute;
+      top: 450px;
+      right: 60px;
+
+
+    }
+    .flecha1d img {
+      width: 40px;
+      height: 60px;
+    }
+
+
+    .Añadir1 {
+      position: absolute;    
+      top: 800px;
+      left: 120px;
+      width: 260px;
+      height: 100px;
+      background-color: #FFE5BD;
+      border: 8px solid #FFE5BD;
+      border-radius: 8px;
+      color: #000000;
+      cursor: pointer;
+      font-family: "IBM Plex Serif", serif;
+      font-weight: bold;
+      font-size: 35px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .Añadir1:active {
+      background-color: #FF8A00;
+      border-color: #FFE5BD;
+      color: #000000;
+    }
+
+    .Añadir2 {
+      position: absolute;    
+      top: 800px;
+      left: 470px;
+      width: 260px;
+      height: 100px;
+      background-color: #FFE5BD;
+      border: 8px solid #FFE5BD;
+      border-radius: 8px;
+      color: #000000;
+      cursor: pointer;
+      font-family: "IBM Plex Serif", serif;
+      font-weight: bold;
+      font-size: 35px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .Añadir2:active {
+      background-color: #FF8A00;
+      border-color: #FFE5BD;
+      color: #000000;
+    }
+
+    .Añadir3 {
+      position: absolute;    
+      top: 800px;
+      left: 830px;
+      width: 260px;
+      height: 100px;
+      background-color: #FFE5BD;
+      border: 8px solid #FFE5BD;
+      border-radius: 8px;
+      color: #000000;
+      cursor: pointer;
+      font-family: "IBM Plex Serif", serif;
+      font-weight: bold;
+      font-size: 35px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .Añadir3:active {
+      background-color: #FF8A00;
+      border-color: #FFE5BD;
+      color: #000000;
+    }
+
+
+    .seccion-categorias {
+      color: #FF8A00;
+      background-color: #FFE5BD;
+      width: 100%;
+      height: 500px;
+      display: flex;
+      top: 3200px;
+      position: absolute;
+      justify-content: center;
+      align-items: center;
+
+    }
+  
+    .titulo-ofertas1 {
+    display: inline-flex;
+    color: #FF8A00;
+    font-family: "Comfortaa", Arial, sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+    text-decoration: underline;
+    margin-top: -270px; /* Ajusta el margen superior según sea necesario */
+
+    position: absolute;
+    }
+
+    
+    .seccion-categorias div h2 {
+      
+      font-family: "Comfortaa", Arial, sans-serif;
+      font-weight: bold;
+      font-size: 50px;
+      padding-top: 250px;
+      margin: 15px;    
+      text-decoration: underline;
+
+    }
+    .seccion-categorias div h2 {
+      
+      font-family: "Comfortaa", Arial, sans-serif;
+      font-weight: bold;
+      font-size: 50px;
+      padding-top: 250px;
+      margin: 15px;    
+      text-decoration: underline;
+
+    }
+
+    .frescosh{
+      font-family: "Comfortaa", Arial, sans-serif;
+      font-weight: bold;
+      font-size: 50px;
+      padding-top: 250px;
+      margin: 15px;    
+      text-decoration: underline;
+   
+    }
+
+.frescosh:hover{
+  background-color: #FF8A00;
+  color: #FFE5BD;
+  height: 200px;
+  width: 235px;
+  margin-top: 380px;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  vertical-align: top;
+  padding-top: 30px; /* Ajusta el espaciado superior según sea necesario */
+  text-align: center;
+
+}
+
+  .despensah{
+    font-family: "Comfortaa", Arial, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    padding-top: 250px;
+    margin: 15px;    
+    text-decoration: underline;
+ 
+  }
+  
+
+.despensah:hover{
+  background-color: #FF8A00;
+  color: #FFE5BD;
+  height: 200px;
+  width: 275px;
+  margin-top: 380px;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  vertical-align: top;
+  padding-top: 30px; /* Ajusta el espaciado superior según sea necesario */
+  text-align: center;
+}
+
+.congeladosh{
+  font-family: "Comfortaa", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  padding-top: 250px;
+  margin: 15px;    
+  text-decoration: underline;
+
+}
+
+.congeladosh:hover{
+  background-color: #FF8A00;
+  color: #FFE5BD;
+  height: 200px;
+  width: 330px;
+  margin-top: 380px;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  vertical-align: top;
+  padding-top: 30px; /* Ajusta el espaciado superior según sea necesario */
+  text-align: center;
+}
+
+
+.limpiezah{
+  font-family: "Comfortaa", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  padding-top: 250px;
+  margin: 15px;    
+  text-decoration: underline;
+
+}
+
+.limpiezah:hover{
+  background-color: #FF8A00;
+  color: #FFE5BD;
+  height: 200px;
+  width: 270px;
+  margin-top: 380px;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  vertical-align: top;
+  padding-top: 30px; /* Ajusta el espaciado superior según sea necesario */
+  text-align: center;
+  
+}
+
+
+    .flecha2z{
+      position: absolute;
+      transform: rotate(180deg);
+      top: 340px;
+      left: 20px;
+
+    }
+
+    .flecha2z img {
+      width: 40px;
+      height: 60px;
+    }
+
+    .flecha2d{
+      position: absolute;
+      top: 345px;
+      right: 20px;
+
+
+    }
+    .flecha2d img {
+      width: 40px;
+      height: 60px;
+    }
+
+
+
+    .fondo-index-naranja3{
+
+      position: absolute;
+      background-color: #FF8A00;
+      width: 100%;
+      height: 1500px;
+      top: 3680px;
+  
+    }
+
+
+/**//**//**//**//**//**//**//**//**//**//**//**/
+    .image-frescos4 {
+      position: absolute;
+      text-align: center;
+      left: 140px;
+      margin-top: 150px;
+    }
+
+    .image-frescos4 img {
+      width: 300px;
+      height: 200px;
+    }
+
+    .image-name4 {
+      font-family: "IBM Plex Serif", serif;
+      font-size: 35px;
+      color: #000000;
+      position: absolute;
+      display: flex;
+      width:100px ;
+      top: 240px;
+      left: 20px;
+    }
+/**//**//**//**//**//**//**//**//**//**//**//**/
+    .image-frescos5 {
+      position: absolute;
+      text-align: center;
+      left: 500px;
+      margin-top: 150px;
+    }
+
+    .image-frescos5 img {
+      width: 300px;
+      height: 200px;
+    }
+
+    .image-name5 {
+      font-family: "IBM Plex Serif", serif;
+      font-size: 35px;
+      color: #000000;
+      position: absolute;
+      display: flex;
+      width:100px ;
+      top: 240px;
+      left: 20px;
+    }
+/**//**//**//**//**//**//**//**//**//**//**//**/
+    .image-frescos6 {
+      position: absolute;
+      text-align: right;
+      left: 870px;
+      margin-top: 130px;
+    }
+    
+    .image-frescos6 img {
+      width: 300px;
+      height: 250px;
+    }
+
+    .image-name6 {
+      font-family: "IBM Plex Serif", serif;
+      font-size: 35px;
+      color: #000000;
+      position: absolute;
+      display: flex;
+      width:100px ;
+      top: 260px;
+      margin-left: 40px;
+    }
+ /**//**//**//**//**//**//**//**//**//**//**//**/
+
+
+ /**//**//**//**//**//**//**//**//**//**//**//**/
+ .image-frescos7 {
+  position: absolute;
+  text-align: center;
+  left: 140px;
+  margin-top: 900px;
+}
+
+.image-frescos7 img {
+  width: 200px;
+  height: 300px;
+  margin-top: -50px;
+  margin-left: 50px;
+
+}
+
+.image-name7 {
+  font-family: "IBM Plex Serif", serif;
+  font-size: 35px;
+  color: #000000;
+  position: absolute;
+  display: flex;
+  width:100px ;
+  top: 240px;
+  left: 60px;
+}
+/**//**//**//**//**//**//**//**//**//**//**//**/
+.image-frescos8 {
+  position: absolute;
+  text-align: center;
+  left: 500px;
+  margin-top: 900px;
+}
+
+.image-frescos8 img {
+  width: 400px;
+  height: 300px;
+  margin-top: -50px;
+  margin-left: -35px;
+}
+
+.image-name8 {
+  font-family: "IBM Plex Serif", serif;
+  font-size: 35px;
+  color: #000000;
+  position: absolute;
+  display: flex;
+  width:100px ;
+  top: 240px;
+  left: 110px;
+}
+/**//**//**//**//**//**//**//**//**//**//**//**/
+.image-frescos9 {
+  position: absolute;
+  text-align: right;
+  left: 870px;
+  margin-top: 880px;
+}
+
+.image-frescos9 img {
+  width: 300px;
+  height: 250px;
+}
+
+.image-name9 {
+  font-family: "IBM Plex Serif", serif;
+  font-size: 35px;
+  color: #000000;
+  position: absolute;
+  display: flex;
+  width:100px ;
+  top: 260px;
+  margin-left: 95px;
+}
+/**//**//**//**//**//**//**//**//**//**//**//**/
+
+.Añadir4 {
+  position: absolute;    
+  top: 500px;
+  left: 150px;
+  width: 260px;
+  height: 100px;
+  background-color: #FFE5BD;
+  border: 8px solid #FFE5BD;
+  border-radius: 8px;
+  color: #000000;
+  cursor: pointer;
+  font-family: "IBM Plex Serif", serif;
+  font-weight: bold;
+  font-size: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Añadir4:active {
+  background-color: #FF8A00;
+  border-color: #FFE5BD;
+  color: #000000;
+}
+
+.Añadir5 {
+  position: absolute;    
+  top: 500px;
+  left: 500px;
+  width: 260px;
+  height: 100px;
+  background-color: #FFE5BD;
+  border: 8px solid #FFE5BD;
+  border-radius: 8px;
+  color: #000000;
+  cursor: pointer;
+  font-family: "IBM Plex Serif", serif;
+  font-weight: bold;
+  font-size: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Añadir5:active {
+  background-color: #FF8A00;
+  border-color: #FFE5BD;
+  color: #000000;
+}
+
+.Añadir6 {
+  position: absolute;    
+  top: 500px;
+  left: 880px;
+  width: 260px;
+  height: 100px;
+  background-color: #FFE5BD;
+  border: 8px solid #FFE5BD;
+  border-radius: 8px;
+  color: #000000;
+  cursor: pointer;
+  font-family: "IBM Plex Serif", serif;
+  font-weight: bold;
+  font-size: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Añadir6:active {
+  background-color: #FF8A00;
+  border-color: #FFE5BD;
+  color: #000000;
+}
+
+
+/**//**//**//**//**//**//**//**//**//**//**//**/
+
+
+.Añadir7 {
+  position: absolute;    
+  top: 1250px;
+  left: 150px;
+  width: 260px;
+  height: 100px;
+  background-color: #FFE5BD;
+  border: 8px solid #FFE5BD;
+  border-radius: 8px;
+  color: #000000;
+  cursor: pointer;
+  font-family: "IBM Plex Serif", serif;
+  font-weight: bold;
+  font-size: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Añadir7:active {
+  background-color: #FF8A00;
+  border-color: #FFE5BD;
+  color: #000000;
+}
+
+.Añadir8 {
+  position: absolute;    
+  top: 1250px;  
+  left: 530px;
+  width: 260px;
+  height: 100px;
+  background-color: #FFE5BD;
+  border: 8px solid #FFE5BD;
+  border-radius: 8px;
+  color: #000000;
+  cursor: pointer;
+  font-family: "IBM Plex Serif", serif;
+  font-weight: bold;
+  font-size: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Añadir8:active {
+  background-color: #FF8A00;
+  border-color: #FFE5BD;
+  color: #000000;
+}
+
+.Añadir9 {
+  position: absolute;    
+  top: 1250px;
+  left: 880px;
+  width: 260px;
+  height: 100px;
+  background-color: #FFE5BD;
+  border: 8px solid #FFE5BD;
+  border-radius: 8px;
+  color: #000000;
+  cursor: pointer;
+  font-family: "IBM Plex Serif", serif;
+  font-weight: bold;
+  font-size: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Añadir9:active {
+  background-color: #FF8A00;
+  border-color: #FFE5BD;
+  color: #000000;
+}
+
+.redes-sociales {
+  color: #FF8A00;
+  background-color: #FFE5BD;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  top: 5180px;
+  position: absolute;
+
+}
+
+.redes-sociales .copyright {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 17px;
+  color: black;
+}
+
+.redesizq{
+  width: 500px;
+  height: 100%;
+  position: absolute;
+}
+
+
+.titulo-redes-soc {
+  font-family: "Comfortaa", Arial, sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  text-decoration: underline;
+  color: #FF8A00;
+  margin-top: 100px;
+  margin-left: 60px;
+}
+  
+.redes-sociales img {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: 180px; 
+  top: 190px;
+}
+
+.redesder{
+  width: 780px;
+  height: 100%;
+  position: absolute;
+  font-family: "Comfortaa", Arial, sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+ 
+  
+  color: #FF8A00;
+  right: 0px;
+}
+
+
+.redesder .red1 {
+  position: absolute;
+  top: 100px;
+  left: 80px;
+  text-decoration: underline;
+}
+
+.redesder .red2 {
+  position: absolute;
+  top: 100px;
+  right: 80px;
+  text-decoration: underline;
+}
+
+.redesder .red3 {
+  position: absolute;
+  bottom: 100px;
+  left: 100px;
+  text-decoration: underline;
+}
+
+.redesder .red4 {
+  position: absolute;
+  bottom: 100px;
+  right: 95px;
+  text-decoration: underline;
+}
+
+.seccion-favoritos{
+  display: none;
+}
+.seccion-destacados{
+  display: none;
+}
+.seccion-frescos{
+  display: none;
+}
+
+
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//*
+
+HTML2 ESCRITORIO SER SOCIO
+
+*//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+
+.fondo-socio{
+
+  position: absolute;
+  background-color: #FF8A00;
+  width: 100%;
+  height: 950px;
+  top: 400px;
+
+}
+
+.intro{
+  position: absolute;
+  width: 900px;
+  top: 150px;
+  left: 150px;
+
+}
+
+.hazte-socio {
+  font-family: "Comfortaa", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 69px;
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 65px; 
+  margin-left: 360px;
+  position: absolute;
+  color: #FFE5BD;
+}
+
+
+
+.titulo-intro {
+
+  font-family: "IBM Plex Serif", serif;
+  font-size: 42px;
+  text-decoration: underline;
+  position: absolute;
+  color: #FFE5BD;
+}
+
+.texto-recuadro {
+  width: 900px;
+  height: 150px;
+  background-color: transparent;
+  border: 9px solid #FFE5BD;
+  border-radius: 8px;
+  position: absolute;
+  top: 125px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 60px;
+  padding-right: 60px;
+  font-size: 27px;
+  left: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  color: #FFE5BD; 
+  
+}
+
+.requisitos-socio{
+position: absolute;
+top: 920px;
+left: 150px;
+}
+
+.titulo-requisitos {
+  font-family: "IBM Plex Serif", serif;
+  font-size: 42px;
+  text-decoration: underline;
+  color: #FFE5BD;
+  
+}
+
+.lista-apartados {
+  font-family: "IBM Plex Serif", serif;
+  font-size: 40px;
+  color: #FFE5BD;
+  margin-top: 20px;
+  margin-left: 30px;
+  list-style-type: none;
+  text-decoration: underline;
+  line-height: 1.75;
+}
+
+
+
+.rellenafor{
+  position: absolute;
+  width: 100%;
+  height: 1000px;
+  top: 1350px;
+
+}
+
+.rellenafor-texto{
+  font-family: "IBM Plex Serif", serif;
+    font-size: 42px;
+    text-decoration: underline;
+    position: absolute;
+    color: #FF8A00;
+    top: 60px;
+    left: 150px;
+    text-align: center;
+}
+
+.rellenafor-texto2{
+  font-family: "IBM Plex Serif", serif;
+    font-size: 42px;
+    text-decoration: underline;
+    position: absolute;
+    color: #FF8A00;
+    top: 210px;
+    left: -100px;
+    text-align: center;
+}
+
+.rellenafor-form{
+  width: 370px;
+  height: 120px;
+  background-color: #FF8A00;
+  border: 6px solid #FF8A00;
+  border-radius: 8px;
+  top: 280px;
+  left: 310px;
+  line-height: 46px;
+  color: #000000;
+  cursor: pointer;
+  position: absolute;
+  font-family: "IBM Plex Serif", serif;
+  font-size: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Comfortaa", Arial, sans-serif;
+  font-weight: bold;
+
+}
+
+.rellenafor-form:active {
+  background-color: #FFE5BD;
+  border-color: #FF8A00;
+  color: #000000;
+  
+}
+
+.hazte-socio2 {
+  font-family: "Comfortaa", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 60px;
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 300px; 
+  margin-left: 720px;
+  position: absolute;
+  color: #FF8A00;
+}
+
+
+
+/**//**//**//**/
+
+
+
+.redes-sociales2 {
+  color: #FFE5BD;
+  background-color: #FF8A00;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  top: 2000px;
+  position: absolute;
+
+}
+
+.redes-sociales2 .copyright {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 17px;
+  color: black;
+}
+
+.redesizq{
+  width: 500px;
+  height: 100%;
+  position: absolute;
+}
+
+
+.titulo-redes-soc2 {
+  font-family: "Comfortaa", Arial, sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  text-decoration: underline;
+  color: #FFE5BD;
+  margin-top: 100px;
+  margin-left: 60px;
+}
+  
+.redes-sociales2 img {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: 180px; 
+  top: 190px;
+        
+}
+
+.redesder2{
+  width: 780px;
+  height: 100%;
+  position: absolute;
+  font-family: "Comfortaa", Arial, sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+ 
+  
+  color: #FFE5BD;
+  right: 0px;
+}
+
+
+.redesder2 .red1 {
+  position: absolute;
+  top: 100px;
+  left: 80px;
+  text-decoration: underline;
+}
+
+.redesder2 .red2 {
+  position: absolute;
+  top: 100px;
+  right: 80px;
+  text-decoration: underline;
+}
+
+.redesder2 .red3 {
+  position: absolute;
+  bottom: 100px;
+  left: 100px;
+  text-decoration: underline;
+}
+
+.redesder2 .red4 {
+  position: absolute;
+  bottom: 100px;
+  right: 95px;
+  text-decoration: underline;
+}
+
+.redes{
+  display: none;
+}
+
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//*
+
+HTML2 ESCRITORIO CATÁLOGO
+
+*//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+.pagina-catalogo{
+
+  display: block;
+
+}
+
+
+
+.fondo-titulo-catalogo{
+    position: absolute;
+    background-color: #FF8A00;
+    width: 100%;
+    height: 230px;
+    top: 400px;
+  
+}
+
+.titulo-catalogo{
+  font-family: "Comfortaa", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 74px;
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 65px; /* Ajusta el margen superior según sea necesario */
+  margin-left: 450px;
+  position: absolute;
+  color: #FFE5BD;
+}
+
+
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+.flecha3z{
+  position: absolute;
+  transform: rotate(180deg);
+
+  top: 930px;
+  left: 70px;
+}
+
+.flecha3z img{
+width: 40px;
+height: 60px;
+}
+
+.flecha3d{
+  position: absolute;
+
+  top: 930px;
+  right: 70px;
+}
+
+.flecha3d img{
+  width: 40px;
+  height: 60px;
+  }
+
+.fondo-catalogo1{
+
+  position: absolute;
+  background-color: #FFE5BD;
+  width: 100%;
+  height: 600px;
+  top: 625px;
+
+}
+
+
+.populares-tit2 {
+  font-family: "Comfortaa", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 70px;
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 675px; /* Ajusta el margen superior según sea necesario */
+  margin-left: 235px;
+  position: absolute;
+  color: #FF8A00;
+  }
+
+
+
+  .image-container10 {
+    position: absolute;
+    text-align: center;
+    left: 210px;
+    margin-top: 800px;
+  }
+
+  .image-container11 {
+    position: absolute;
+    text-align: center;
+    left: 500px;
+    margin-top: 750px;
+  }
+
+  .image-container12 {
+    position: absolute;
+    text-align: right;
+    left: 870px;
+    margin-top: 800px;
+  }
+  
+  .image-container10 img {
+    width: 125px;
+    height: 200px;
+  }
+  .image-container11 img {
+    width: 300px;
+    height: 300px;
+  }
+  .image-container12 img {
+    width: 250px;
+    height: 200px;
+  }
+  
+  .image-name10 {
+    font-family: "IBM Plex Serif", serif;
+    font-size: 35px;
+    color: #000000;
+    position: absolute;
+    display: flex;
+    width:100px ;
+    top: 230px;
+    left: -30px;
+  }
+
+  .image-name11 {
+    font-family: "IBM Plex Serif", serif;
+    font-size: 35px;
+    color: #000000;
+    position: absolute;
+    display: flex;
+    width:100px ;
+    top: 280px;
+    left: 80px;
+  }
+
+  .image-name12 {
+    font-family: "IBM Plex Serif", serif;
+    font-size: 35px;
+    color: #000000;
+    position: absolute;
+    display: flex;
+    width:100px ;
+    top: 230px;
+    margin-left: 65px;
+  }
+
+  .botonAñadir10 {
+          
+    margin-top: 1110px;
+    margin-left: 150px;
+    width: 220px;
+    height: 90px;
+    background-color: #FF8A00;
+    border: 2px solid #FF8A00;
+    border-radius: 8px;
+    color: #000000;
+    cursor: pointer;
+    font-family: "IBM Plex Serif", serif;
+    font-weight: bold;
+    font-size: 30px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .botonAñadir10:active {
+    background-color: #FFE5BD;
+    border-color: #FF8A00;
+    color: #000000;
+  }
+  .botonAñadir11 {
+          
+    margin-top: 1110px;
+    margin-left: 530px;
+    width: 220px;
+    height: 90px;
+    background-color: #FF8A00;
+    border: 2px solid #FF8A00;
+    border-radius: 8px;
+    color: #000000;
+    cursor: pointer;
+    font-family: "IBM Plex Serif", serif;
+    font-weight: bold;
+    font-size: 30px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .botonAñadir11:active {
+    background-color: #FFE5BD;
+    border-color: #FF8A00;
+    color: #000000;
+  }
+  .botonAñadir12 {
+          
+    margin-top: 1110px;
+    margin-left: 890px;
+    width: 220px;
+    height: 90px;
+    background-color: #FF8A00;
+    border: 2px solid #FF8A00;
+    border-radius: 8px;
+    color: #000000;
+    cursor: pointer;
+    font-family: "IBM Plex Serif", serif;
+    font-weight: bold;
+    font-size: 30px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .botonAñadir12:active {
+    background-color: #FFE5BD;
+    border-color: #FF8A00;
+    color: #000000;
+  }
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+
+.flecha4z{
+  position: absolute;
+  transform: rotate(180deg);
+
+  top: 1600px;
+  left: 70px;
+}
+
+.flecha4z img{
+width: 40px;
+height: 60px;
+}
+
+.flecha4d{
+  position: absolute;
+
+  top: 1600px;
+  right: 70px;
+}
+
+.flecha4d img{
+  width: 40px;
+  height: 60px;
+  }
+
+
+.fondo-catalogo2 {
+  position: absolute;
+  background-color: #FF8A00;
+  width: 100%;
+  height: 700px;
+  top: 1240px;
+}
+
+.populares-tit3 {
+  font-family: "Comfortaa", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 70px;
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 1290px; /* Ajusta el margen superior según sea necesario */
+  margin-left: 460px;
+  position: absolute;
+  color: #FFE5BD;
+}
+
+.image-container13 {
+  position: absolute;
+  text-align: center;
+  left: 210px;
+  margin-top: 1430px;
+}
+
+.image-container14 {
+  position: absolute;
+  text-align: center;
+  left: 500px;
+  margin-top: 1380px;
+}
+
+.image-container15 {
+  position: absolute;
+  text-align: right;
+  left: 870px;
+  margin-top: 1445px;
+}
+
+.image-container13 img {
+  width: 125px;
+  height: 200px;
+}
+
+.image-container14 img {
+  width: 300px;
+  height: 300px;
+}
+
+.image-container15 img {
+  width: 250px;
+  height: 200px;
+}
+
+.image-name13 {
+  font-family: "IBM Plex Serif", serif;
+  font-size: 35px;
+  color: #000000;
+  position: absolute;
+  display: flex;
+  width: 200px;
+  top: 230px;
+  left: -50px;
+}
+
+.image-name14 {
+  font-family: "IBM Plex Serif", serif;
+  font-size: 35px;
+  color: #000000;
+  position: absolute;
+  display: flex;
+  width: 200px;
+  top: 290px;
+  left: 40px;
+}
+
+.image-name15 {
+  font-family: "IBM Plex Serif", serif;
+  font-size: 35px;
+  color: #000000;
+  position: absolute;
+  display: flex;
+  width: 200px;
+  top: 220px;
+  margin-left: -20px;
+}
+
+.botonAñadir13 {
+  margin-top: 1800px;
+  margin-left: 150px;
+  width: 220px;
+  height: 90px;
+  background-color: #FFE5BD;
+  border: 2px solid #FFE5BD;
+  border-radius: 8px;
+  color: #000000;
+  cursor: pointer;
+  font-family: "IBM Plex Serif", serif;
+  font-weight: bold;
+  font-size: 30px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.botonAñadir13:active {
+  background-color: #FF8A00;
+  border-color: #FFE5BD;
+  color: #000000;
+}
+
+.botonAñadir14 {
+  margin-top: 1800px;
+  margin-left: 530px;
+  width: 220px;
+  height: 90px;
+  background-color: #FFE5BD;
+  border: 2px solid #FFE5BD;
+  border-radius: 8px;
+  color: #000000;
+  cursor: pointer;
+  font-family: "IBM Plex Serif", serif;
+  font-weight: bold;
+  font-size: 30px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.botonAñadir14:active {
+  background-color: #FF8A00;
+  border-color: #FFE5BD;
+  color: #000000;
+}
+
+.botonAñadir15 {
+  margin-top: 1800px;
+  margin-left: 890px;
+  width: 220px;
+  height: 90px;
+  background-color: #FFE5BD;
+  border: 2px solid #FFE5BD;
+  border-radius: 8px;
+  color: #000000;
+  cursor: pointer;
+  font-family: "IBM Plex Serif", serif;
+  font-weight: bold;
+  font-size: 30px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.botonAñadir15:active {
+  background-color: #FF8A00;
+  border-color: #FFE5BD;
+  color: #000000;
+}
+
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+.flecha5z{
+  position: absolute;
+  transform: rotate(180deg);
+
+  top: 2300px;
+  left: 70px;
+}
+
+.flecha5z img{
+width: 40px;
+height: 60px;
+}
+
+.flecha5d{
+  position: absolute;
+
+  top: 2300px;
+  right: 70px;
+}
+
+.flecha5d img{
+  width: 40px;
+  height: 60px;
+  }
+
+
+.fondo-catalogo3{
+
+  position: absolute;
+  background-color: #FFE5BD;
+  width: 100%;
+  height: 700px;
+  top: 1950px;
+
+}
+
+
+.populares-tit4 {
+  font-family: "Comfortaa", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 70px;
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 2000px; /* Ajusta el margen superior según sea necesario */
+  margin-left: 450px;
+  position: absolute;
+  color: #FF8A00;
+  }
+
+  .image-container16 {
+    position: absolute;
+    text-align: center;
+    left: 210px;
+    margin-top: 2150px;
+  }
+
+  .image-container17 {
+    position: absolute;
+    text-align: center;
+    left: 450px;
+    margin-top: 2100px;
+  }
+
+  .image-container18 {
+    position: absolute;
+    text-align: right;
+    left: 870px;
+    margin-top: 2150px;
+  }
+  
+  .image-container16 img {
+    width: 80px;
+    height: 220px;
+  }
+  .image-container17 img {
+    width: 300px;
+    height: 300px;
+  }
+  .image-container18 img {
+    width: 250px;
+    height: 200px;
+  }
+  
+  .image-name16 {
+    font-family: "IBM Plex Serif", serif;
+    font-size: 35px;
+    color: #000000;
+    position: absolute;
+    display: flex;
+    width:100px ;
+    top: 240px;
+    left: -30px;
+  }
+
+  .image-name17 {
+    font-family: "IBM Plex Serif", serif;
+    font-size: 35px;
+    color: #000000;
+    position: absolute;
+    display: flex;
+    width:300px ;
+    top:310px;
+    left: 80px;
+  }
+
+  .image-name18 {
+    font-family: "IBM Plex Serif", serif;
+    font-size: 35px;
+    color: #000000;
+    position: absolute;
+    display: flex;
+    width:100px ;
+    top: 230px;
+    margin-left: 65px;
+  }
+
+  .botonAñadir16 {
+          
+    margin-top: 2475px;
+    margin-left: 140px;
+    width: 220px;
+    height: 90px;
+    background-color: #FF8A00;
+    border: 2px solid #FF8A00;
+    border-radius: 8px;
+    color: #000000;
+    cursor: pointer;
+    font-family: "IBM Plex Serif", serif;
+    font-weight: bold;
+    font-size: 30px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .botonAñadir16:active {
+    background-color: #FFE5BD;
+    border-color: #FF8A00;
+    color: #000000;
+  }
+  .botonAñadir17 {
+          
+    margin-top: 2475px;
+    margin-left: 530px;
+    width: 220px;
+    height: 90px;
+    background-color: #FF8A00;
+    border: 2px solid #FF8A00;
+    border-radius: 8px;
+    color: #000000;
+    cursor: pointer;
+    font-family: "IBM Plex Serif", serif;
+    font-weight: bold;
+    font-size: 30px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .botonAñadir17:active {
+    background-color: #FFE5BD;
+    border-color: #FF8A00;
+    color: #000000;
+  }
+  .botonAñadir18 {
+          
+    margin-top: 2475px;
+    margin-left: 890px;
+    width: 220px;
+    height: 90px;
+    background-color: #FF8A00;
+    border: 2px solid #FF8A00;
+    border-radius: 8px;
+    color: #000000;
+    cursor: pointer;
+    font-family: "IBM Plex Serif", serif;
+    font-weight: bold;
+    font-size: 30px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .botonAñadir18:active {
+    background-color: #FFE5BD;
+    border-color: #FF8A00;
+    color: #000000;
+  }
+
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+.flecha6z{
+  position: absolute;
+  transform: rotate(180deg);
+
+  top: 3000px;
+  left: 70px;
+}
+
+.flecha6z img{
+width: 40px;
+height: 60px;
+}
+
+.flecha6d{
+  position: absolute;
+
+  top: 3000px;
+  right: 70px;
+}
+
+.flecha6d img{
+  width: 40px;
+  height: 60px;
+  }
+
+.fondo-catalogo4 {
+  position: absolute;
+  background-color: #FF8A00;
+  width: 100%;
+  height: 700px;
+  top: 2670px;
+}
+
+.populares-tit5 {
+  font-family: "Comfortaa", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 70px;
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 2750px; /* Ajusta el margen superior según sea necesario */
+  margin-left: 500px;
+  position: absolute;
+  color: #FFE5BD;
+}
+
+.image-container19 {
+  position: absolute;
+  text-align: center;
+  left: 170px;
+  margin-top: 2940px;
+}
+
+.image-container20 {
+  position: absolute;
+  text-align: center;
+  left: 550px;
+  margin-top: 2920px;
+}
+
+.image-container21 {
+  position: absolute;
+  text-align: right;
+  left: 880px;
+  margin-top: 2900px;
+}
+
+.image-container19 img {
+  width: 200px;
+  height: 100px;
+}
+
+.image-container20 img {
+  width: 200px;
+  height: 150px;
+}
+
+.image-container21 img {
+  width: 250px;
+  height: 200px;
+}
+
+.image-name19 {
+  font-family: "IBM Plex Serif", serif;
+  font-size: 35px;
+  color: #000000;
+  position: absolute;
+  display: flex;
+  width: 200px;
+  top: 150px;
+}
+
+.image-name20 {
+  font-family: "IBM Plex Serif", serif;
+  font-size: 35px;
+  color: #000000;
+  position: absolute;
+  display: flex;
+  width: 200px;
+  top: 170px;
+  left: -10px;
+}
+
+.image-name21 {
+  font-family: "IBM Plex Serif", serif;
+  font-size: 35px;
+  color: #000000;
+  position: absolute;
+  display: flex;
+  width: 300px;
+  top: 220px;
+}
+
+.botonAñadir19 {
+  margin-top: 3250px;
+  margin-left: 150px;
+  width: 220px;
+  height: 90px;
+  background-color: #FFE5BD;
+  border: 2px solid #FFE5BD;
+  border-radius: 8px;
+  color: #000000;
+  cursor: pointer;
+  font-family: "IBM Plex Serif", serif;
+  font-weight: bold;
+  font-size: 30px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.botonAñadir19:active {
+  background-color: #FF8A00;
+  border-color: #FFE5BD;
+  color: #000000;
+}
+
+.botonAñadir20 {
+  margin-top: 3250px;
+  margin-left: 530px;
+  width: 220px;
+  height: 90px;
+  background-color: #FFE5BD;
+  border: 2px solid #FFE5BD;
+  border-radius: 8px;
+  color: #000000;
+  cursor: pointer;
+  font-family: "IBM Plex Serif", serif;
+  font-weight: bold;
+  font-size: 30px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.botonAñadir20:active {
+  background-color: #FF8A00;
+  border-color: #FFE5BD;
+  color: #000000;
+}
+
+.botonAñadir21 {
+  margin-top: 3250px;
+  margin-left: 890px;
+  width: 220px;
+  height: 90px;
+  background-color: #FFE5BD;
+  border: 2px solid #FFE5BD;
+  border-radius: 8px;
+  color: #000000;
+  cursor: pointer;
+  font-family: "IBM Plex Serif", serif;
+  font-weight: bold;
+  font-size: 30px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.botonAñadir21:active {
+  background-color: #FF8A00;
+  border-color: #FFE5BD;
+  color: #000000;
+}
+
+.redes-sociales3{
+
+  color: #FF8A00;
+  background-color: #FFE5BD;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  top: 3380px;
+  position: absolute;
+
+}
+
+.redes-sociales3 .copyright {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 19px;
+  color: black;
+}
+
+.redes-sociales3 img {
+  position: absolute;
+        width: 150px;
+        height: 150px;
+        left: 180px; 
+        top: 190px;
+}
+
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//*
+
+HTML2 ESCRITORIO CESTA
+
+*//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+.pagina-cesta{
+  display: block;
+}
+
+.pagina-cesta-movil{
+  display: none;
+}
+
+
+.fondo-titulo-catalogo{
+  position: absolute;
+  background-color: #FF8A00;
+  width: 100%;
+  height: 230px;
+  top: 400px;
+
+}
+
+.titulo-catalogo{
+font-family: "Comfortaa", Arial, sans-serif;
+font-weight: bold;
+font-size: 74px;
+text-align: center;
+text-decoration: underline;
+margin-top: 65px; /* Ajusta el margen superior según sea necesario */
+margin-left: 450px;
+position: absolute;
+color: #FFE5BD;
+}
+
+.articulos-container {
+  position: absolute;
+  width: 100%;
+  height: 800px;
+  top: 630px;
+  display: flex;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  
+}
+
+.titulo-articulos {
+  position: absolute;
+  font-size: 55px;
+  color: #FF8A00;
+  text-decoration: underline;
+  left: 130px;
+  top: 40px;
+}
+
+.corazonvacio{
+  position: absolute;
+  left: 500px;
+  top: 550px;
+}
+
+.gfavoritos{
+  color: #000000;
+  font-size: 25px;
+  position: absolute;
+  margin-left: 20px;
+  bottom: 30px;
+  white-space: nowrap;
+
+}
+
+.borrar{
+  color: #000000;
+  font-size: 25px;
+  position: absolute;
+  margin-left: 360px;
+  bottom: 30px;
+  white-space: nowrap;
+  text-decoration: underline;
+
+}
+
+.corazon-img2{
+  width: 80px;
+  height: 80px;
+}
+
+.cerveza-titulo{
+  position: absolute;
+  font-size: 47px;
+  left: 500px;
+  top: 200px;
+}
+
+.check1{
+  top: 390px;
+  left: 20px;
+  position: absolute;
+
+}
+
+.check-icon {
+  width: 75px;
+  height: 75px;
+}
+
+.cerveza-cesta{
+  top: 200px;
+  left: 200px;
+  position: absolute;
+
+}
+
+.cerveza-img {
+  width: 150px;
+  height: 500px;
+
+}
+
+.contador {
+  left: 500px;
+  right: 250px;
+  position: absolute;
+
+}
+
+.contador-img {
+  background-color: #FFE5BD;
+  width: 500px;
+  height: 100px;
+  border-radius: 4px;
+
+}
+
+/**//**//**//**//**//**//**//**//**//**/
+
+.articulos-container2 {
+  position: absolute;
+  background-color: #FF8A00;
+  width: 100%;
+  height: 800px;
+  top: 1450px;
+  display: flex;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+
+.corazonvacio2{
+  position: absolute;
+  left: 500px;
+  top: 550px;
+}
+
+.gfavoritos{
+  color: #000000;
+  font-size: 25px;
+  position: absolute;
+  margin-left: 20px;
+  bottom: 30px;
+  white-space: nowrap;
+
+}
+
+.borrar{
+  color: #000000;
+  font-size: 25px;
+  position: absolute;
+  margin-left: 360px;
+  bottom: 30px;
+  white-space: nowrap;
+  text-decoration: underline;
+
+}
+
+.corazon2-img2{
+  width: 80px;
+  height: 80px;
+}
+
+.leche-titulo{
+  position: absolute;
+  font-size: 47px;
+  left: 500px;
+  top: 200px;
+}
+
+.check1{
+  top: 390px;
+  left: 20px;
+  position: absolute;
+
+}
+
+.check-icon {
+  width: 75px;
+  height: 75px;
+}
+
+.leche-cesta{
+  top: 200px;
+  left: 200px;
+  position: absolute;
+
+}
+
+.leche-img {
+  width: 250px;
+  height: 500px;
+
+}
+
+.contador {
+  left: 500px;
+  right: 250px;
+  position: absolute;
+
+}
+
+.contador-img {
+  background-color: #FFE5BD;
+  width: 500px;
+  height: 100px;
+  border-radius: 35px;
+
+}
+
+
+/**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+.articulos-container3 {
+  position: absolute;
+  width: 100%;
+  height: 800px;
+  top: 2270px;
+  display: flex;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  
+}
+
+.corazonvacio3{
+  position: absolute;
+  left: 500px;
+  top: 550px;
+}
+
+.gfavoritos{
+  color: #000000;
+  font-size: 25px;
+  position: absolute;
+  margin-left: 20px;
+  bottom: 30px;
+  white-space: nowrap;
+
+}
+
+.borrar{
+  color: #000000;
+  font-size: 25px;
+  position: absolute;
+  margin-left: 360px;
+  bottom: 30px;
+  white-space: nowrap;
+  text-decoration: underline;
+
+}
+
+.corazon-img3{
+  width: 80px;
+  height: 80px;
+}
+
+.f-lomo{
+  position: absolute;
+  font-size: 47px;
+  left: 500px;
+  top: 200px;
+}
+
+.check1{
+  top: 390px;
+  left: 20px;
+  position: absolute;
+
+}
+
+.check-icon {
+  width: 75px;
+  height: 75px;
+}
+
+.flomo-cesta{
+  top: 280px;
+  left: 150px;
+  position: absolute;
+
+}
+
+.flomo-img {
+  width: 300px;
+  height:200px;
+
+}
+
+.contador {
+  left: 500px;
+  right: 250px;
+  position: absolute;
+
+}
+
+.realizarPedido{
+  top: 3100px;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  position: absolute;
+
+}
+
+.pedido-text {
+  position: absolute;
+  top: 10px;
+  left: 110px;
+  height: 400px;
+  width: 1050px;
+  background-color: #FF8A00;
+  color: #FFE5BD;
+  font-size: 65px;
+  text-decoration: underline;
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.redes-sociales4{
+
+  color: #FF8A00;
+  background-color: #FFE5BD;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  top: 3650px;
+  position: absolute;
+
+}
+
+.redes-sociales4 .copyright {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 19px;
+  color: black;
+}
+
+.redes-sociales4 img {
+  position: absolute;
+        width: 150px;
+        height: 150px;
+        left: 180px; 
+        top: 190px;
+}
+
+
+a {
+      color: inherit;
+      text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.seccion-ofertas2{
+ display: none;
+}
+
+.seccion-favoritos2{
+  display: none;
+}
+
+.seccion-populares{
+  display: none;
+}
+
+.seccion-frescos2{
+  display: none;
+}
+
+.seccion-despensa{
+  display: none;
+}
+
+.seccion-congelados{
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
